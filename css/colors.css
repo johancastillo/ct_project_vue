@@ -1,0 +1,22 @@
+:root{
+  --color-primario: #faa32d;
+  --color-secundario: #000;
+  --color-terciario: #fff;
+  --color-fondo: #E5E5E5;
+}
+
+body{
+  background: var(--color-fondo);
+}
+
+.bg1{
+  background: var(--color-primario);
+}
+
+.bg2{
+  background: var(--color-secundario);
+}
+
+.bg3{
+  background: var(--color-terciario);
+}
