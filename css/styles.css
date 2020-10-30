@@ -1,0 +1,8 @@
+.sections{
+    background: var(--color-terciario);
+    border-radius: 6px;
+}
+
+.color-gris{
+    background: var(--color-fondo);
+}
