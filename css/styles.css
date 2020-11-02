@@ -6,3 +6,7 @@
 .color-gris{
     background: var(--color-fondo);
 }
+
+.star-color{
+    color: #FFBC00;
+}
