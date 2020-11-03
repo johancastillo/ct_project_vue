@@ -15,6 +15,6 @@
     display: inline-block;
 }
 
-.title-section > h3{
+.line{
     border-bottom: 2px solid var(--color-primario);
 }
