@@ -9,9 +9,52 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./iconmoon/style.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+
 
 </head>
 <body>
+
+    <!-- Navbar -->
+    <nav class="menu" id="menu">
+      <div class="contenedor contenedor-botones-menu">
+        <button id="btn-menu-barras" class="btn-menu-barras"><i class="fas fa-bars"></i></button>
+        <button id="btn-menu-cerrar" class="btn-menu-cerrar"><i class="fas fa-times"></i></button>
+      </div>
+  
+      <div class="contenedor contenedor-enlaces-nav">
+        <div class="btn-departamentos" id="btn-departamentos">
+          <p>Todos los <span>Departamentos</span></p>
+          <i class="fas fa-caret-down"></i>
+        </div>
+  
+        <div class="enlaces">
+          <a href="#">Cuenta</a>
+          <a href="#">Promociones</a>
+          <a href="#">Mesa de Regalos</a>
+          <a href="#">Ayuda</a>
+        </div>
+      </div>
+  
+      <div class="contenedor contenedor-grid">
+        <div class="grid" id="grid">
+          <div class="categorias">
+            <button class="btn-regresar"><i class="fas fa-arrow-left"></i> Regresar</button>
+            <h3 class="subtitulo">Categorias</h3>
+  
+            <a href="#" data-categoria="tecnologia-y-computadoras">Tecnología y Computadoras <i class="fas fa-angle-right"></i></a>
+            <a href="#" data-categoria="libros">Libros <i class="fas fa-angle-right"></i></a>
+            <a href="#" data-categoria="ropa-y-accesorios">Ropa y Accesorios <i class="fas fa-angle-right"></i></a>
+            <a href="#" data-categoria="hogar-y-cocina">Hogar y Cocina <i class="fas fa-angle-right"></i></a>
+            <a href="#" data-categoria="juegos-y-juguetes">Juegos y Juguetes <i class="fas fa-angle-right"></i></a>
+            <a href="#" data-categoria="salud-y-belleza">Salud y Belleza <i class="fas fa-angle-right"></i></a>
+            <a href="#" data-categoria="alimentos-y-bebidas">Alimentos y Bebidas <i class="fas fa-angle-right"></i></a>
+          </div>
+  
+          
+        </div>
+      </div>
+    </nav>
 
     <!-- Slider -->
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -56,7 +99,7 @@
 
                     <div class="card-body">
 
-                        <p class="card-text">
+                        <p class="card-text name-product">
                           Caja 12 Botellas Vodka Gordon’s The Original 0.70Lt
                         </p>
 
@@ -79,7 +122,7 @@
                   </div>
                     
                     <div class="card-body">
-                      <p class="card-text">
+                      <p class="card-text name-product">
                         Caja 12 Botellas Vodka Gordon’s The Original 0.70Lt
                       </p>
 
@@ -102,7 +145,7 @@
 
                   <div class="card-body">
 
-                      <p class="card-text">
+                      <p class="card-text name-product">
                         Caja 12 Botellas Vodka Gordon’s The Original 0.70Lt
                       </p>
 
@@ -126,7 +169,7 @@
 
                 <div class="card-body">
 
-                    <p class="card-text">
+                    <p class="card-text name-product">
                       Caja 12 Botellas Vodka Gordon’s The Original 0.70Lt
                     </p>
 
@@ -235,6 +278,8 @@
     <!-- Scripts -->
     <script src="./js/jquery-3.5.1.min.js"></script>
     <script src="./js/bootstrap.js"></script>
+    <script src="./js/navbar.js"></script>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
 
     
 </body>
