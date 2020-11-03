@@ -10,3 +10,11 @@
 .star-color{
     color: #FFBC00;
 }
+
+.title-section{
+    display: inline-block;
+}
+
+.title-section > h3{
+    border-bottom: 2px solid var(--color-primario);
+}
